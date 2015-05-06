@@ -1,7 +1,52 @@
 <!DOCTYPE html>
 <html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>GitHub主页测试</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!--导航条头部-->
+            <div class="navbar-header">
+                <!--可以是图片或者文字等-->
+                <a href="#" class="navbar-brand">BrabaYounew</a>
+            </div>
+
+            <!--导航条的内容  collapse 折叠 -->
+            <div class="collapse navbar-collapse">
+                <!--Some links always happend at nav-->
+                <ul class="nav navbar-nav" id="braba_nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">Tab1</a></li>
+                    <li><a href="#">Tab2</a></li>
+                    <li><a href="#">Tab3</a></li>
+                    <li><a href="#">Tab4</a></li>
+                </ul>
+
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="请输入搜索内容">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"  data-toggle="dropdown">linked <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">link 1</a></li>
+                            <li><a href="#">link 1</a></li>
+                            <li><a href="#">link 1</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
