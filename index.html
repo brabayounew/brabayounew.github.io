@@ -2,51 +2,108 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>GitHub主页测试</title>
+    <!-- 禁止终端缩放的设置 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Braba Younew's Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/braba.css">
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <!--导航条头部-->
-            <div class="navbar-header">
-                <!--可以是图片或者文字等-->
-                <a href="#" class="navbar-brand">BrabaYounew</a>
-            </div>
-
-            <!--导航条的内容  collapse 折叠 -->
-            <div class="collapse navbar-collapse">
-                <!--Some links always happend at nav-->
-                <ul class="nav navbar-nav" id="braba_nav">
-                    <li class="active"><a href="#">首页</a></li>
-                    <li><a href="#">Tab1</a></li>
-                    <li><a href="#">Tab2</a></li>
-                    <li><a href="#">Tab3</a></li>
-                    <li><a href="#">Tab4</a></li>
-                </ul>
-
-                <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="请输入搜索内容">
+    <!-- 第一页 -->
+    <div class="one_page">
+        <div class="one_page_bg" id="one_page_bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="title_text">
+                    <div class="col-md-12 head_font_size">
+                        <h1 class="head_h1_content">
+                            Braba Younew<br />
+                            who doing what he said
+                        </h1>
+                        <p class="head_p_content">
+                            ahhh........the sweet tones of misery<br />
+                            any last words?<br />
+                            closing in<br />
+                            come back<br />
+                            come outside to play<br />
+                            writhe,like a worm on the hook<br />
+                            nobody escapes<br />
+                            nowhere to hide<br />
+                            oh!the eternity we shall spend togehter<br />
+                            relax，just we go<br />
+                            screaming wont to u any good but its music to my yes
+                        </p>
+                        <p class="btn-app-download">
+                            <a class="btn btn-success btn-lg">立即下载客户端，嗯...如果有的话</a>
+                        </p>
                     </div>
-                    <button type="submit" class="btn btn-default">搜索</button>
-                </form>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle"  data-toggle="dropdown">linked <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">link 1</a></li>
-                            <li><a href="#">link 1</a></li>
-                            <li><a href="#">link 1</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
+
+    <!--第二页-->
+    <div class="two_page">
+        <div class="two_page_text">
+            <h1 class="two_page_h1_text">
+                Thresh <img src="">
+            </h1>
+        </div>
+        <div class="row">
+            <!--从左往右第一个-->
+            <div class="tow_page_list col-md-4">
+                <a href="#">
+                    <img src="img/02_01.jpg">
+                    <div class="class_icon">
+                        <h3>
+                            妥妥的哦
+                        </h3>
+                        <h1>
+                            <strong>施工中...</strong>
+                        </h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tow_page_list col-md-4">
+                <a href="#">
+                    <img src="img/02_01.jpg">
+                    <div class="class_icon">
+                        <h3>
+                            妥妥的哦
+                        </h3>
+                        <h1>
+                            <strong>施工中...</strong>
+                        </h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tow_page_list col-md-4">
+                <a href="#">
+                    <img src="img/02_01.jpg">
+                    <div class="class_icon">
+                        <h3>
+                            妥妥的哦
+                        </h3>
+                        <h1>
+                            <strong>施工中...</strong>
+                        </h1>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $("#braba_nav a").click(function(e){
+        e.preventDefault();
+        $(this).tab("show");
+    });
+</script>
 </body>
 </html>
