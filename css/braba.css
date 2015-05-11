@@ -1,9 +1,9 @@
-.braba_container{
+?.braba_container{
     width: 70%;
 }
 
 h1,h3,p,a,button{
-    font-family: "Helvetica Neue", Helvetica Arial, "Hiragino Sans GB", "Hiragino";
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .one_page{
@@ -44,4 +44,67 @@ h1,h3,p,a,button{
 .tow_page_list img{
     height: 800px;
     width: 100%;
+}
+
+.two_page{
+    margin: 50px 0px 0px 0px;
+    padding: 2px 0px 2px 0px;
+    background-image: url("../img/01_01.jpg");
+    position: relative;
+}
+
+.two_page_text{
+    width: 100%;
+    text-align: center;
+}
+
+.two_page .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.tow_page_list{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.tow_page_list a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.class_icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.class_icon:hover{
+    background: #080808;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+.class_icon h1{
+    color: #c4e3f3;
+}
+
+.class_icon h3{
+    margin: 50% 0 0 0;
+    color: #c4e3f3;
+}
+
+.two_page_h1_text{
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 60px;
+    color: #c4e3f3;
 }
