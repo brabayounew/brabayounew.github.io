@@ -1,4 +1,9 @@
-?.braba_container{
+body{
+    color: #c4e3f3;
+    font-family: Arial,'Î¢ÈíÑÅºÚ';
+}
+
+.braba_container{
     width: 70%;
 }
 
@@ -47,8 +52,8 @@ h1,h3,p,a,button{
 }
 
 .two_page{
-    margin: 50px 0px 0px 0px;
-    padding: 2px 0px 2px 0px;
+    margin: 50px 0 0 0;
+    padding: 2px 0 2px 0;
     background-image: url("../img/01_01.jpg");
     position: relative;
 }
@@ -59,8 +64,8 @@ h1,h3,p,a,button{
 }
 
 .two_page .row{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .tow_page_list{
@@ -107,4 +112,32 @@ h1,h3,p,a,button{
     font-family:'Trebuchet MS', Helvetica, sans-serif;
     font-size: 60px;
     color: #c4e3f3;
+}
+
+/** µÚÈýÒ³ **/
+.three_page{
+    margin-top: -30px;
+    position: relative;
+    height: 800px;
+}
+
+.three_page_content{
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/931304.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.three_page_text{
+    float: right;
+    margin: 15% 10% 0 0;
+}
+
+.three_page_text p{
+    margin-top: 50px;
+    width: 600px;
+    font-family: Arial,'Î¢ÈíÑÅºÚ';
+    font-size:120%;
 }
